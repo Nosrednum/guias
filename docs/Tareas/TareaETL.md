@@ -28,6 +28,6 @@ Note que para este proceso de negocio, las dimensiones Producto, Cliente y Fecha
 El modelo dimensional estará disponible después de la entrega de la tarea de modelado de datos.
 
 Sobre los resultados del entendimiento de datos, Wide World Importers les comenta lo siguiente:
-Las respuestas del negocio estarán disponibles después de la entrega de la tarea de entendimiento de datos
+Las respuestas del negocio estarán disponibles después de las entregas de las tareas de entendimiento y modelado de datos.
 
 Los datos revisados por el negocio quedan en las tablas Proveedores y movimientos y estos son los que deben utilizar en el proceso ETL. Por otra parte, en las tablas ProveedoresCopia y movimientosCopia quedan los datos con errores en caso de que deseen revisar/ejecutar el ejercicio que realizó de entendimiento de datos.
