@@ -23,7 +23,7 @@ Recuerde que la exploración de los datos depende de los objetivos que tenga el 
 4.	**Análisis 4:** Top 3 de aeropuertos nacionales que podrían reducir su presupuesto en aviones debido a que no transportan un mínimo del 50% de la capacidad que tienen en carga.
 5.	**Análisis 5:** ¿Qué aeropuertos están en centros poblados donde la población de mujeres es mayor a la de hombres, con un PIB, el año de análisis, superior al promedio del Departamento donde está el centro poblado y donde el número de vuelos por mes de un año particular está por debajo del promedio nacional?
 
-A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentra la generalización de los ejemplos anteriores como análisis identificados y los datos requeridos para lograr los objetivos de esta tarea, cada integrante del grupo debe elegir un análisis distinto para el desarrollo del proyecto a lo largo del curso
+A partir de lo anterior, los consultores de BI construyeron la siguiente tabla donde se encuentra la generalización de los ejemplos anteriores como análisis identificados y los datos requeridos para lograr los objetivos de esta tarea.
 
 | Tema analítico  | Análisis requeridos o inferidos | Categoría del análisis (*)  | Procesos de negocio | Fuentes de datos |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
@@ -38,7 +38,8 @@ A partir de lo anterior, los consultores de BI construyeron la siguiente tabla d
 
 ** Los análisis de la tabla pueden ser agrupaciones de análisis más pequeños o se pueden extender, incluso puede que los análisis no estén completos. Es libre de proponerle nuevos análisis al negocio o complementar los de la tabla como parte de sus conclusiones. Piense en que le beneficiaría más a Infraestructura Visible y en paticular a un usuario que esté interesado en este estilo de análisis.
 
-Para esto el negocio les comenta que los datos son registros de vuelos, aeropuertos, información de centros poblados (concentración de mínimo 20 viviendas contiguas) donde el negocio asume que un aeropuerto está asignado a un centro poblado, un centro poblado solo puede estar en un municipio, información de proyección de poblacion y de PIB por departamentos. Dichos datos pueden tener errores ya que no han sido utilizados previamente para ser analizados. Especificamente nos comentan lo siguiente:
+Los datos compartidos por la empresa son registros de vuelos, aeropuertos, información de centros poblados (concentración de mínimo 20 viviendas contiguas) donde el negocio asume que un aeropuerto está asignado a un centro poblado, un centro poblado solo puede estar en un municipio, información de proyección de poblacion y de PIB por departamentos. Dichos datos pueden tener errores ya que no han sido utilizados previamente para ser analizados. 
+Con respecto a los datos, la empresa nos comentan lo siguiente:
 1.	Hay informacion del PIB para los 32 departamentos desde 2005 hasta 2018
 2.	Se tiene la información de proyecciones de vida por género y edad para los 32 departamentos desde 2005 hasta 2015
 3.	El total de hombres de valle del cauca para 2014 es 2110069
@@ -62,7 +63,10 @@ Recuerde que está el tutorial de “Entendimiento de datos”, que será de uti
 - Pyspark
 
 ## **Recomendaciones de los entregables**
-Incluir en la entrega el enlace (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
+- Incluir en la entrega el enlace (link) de la wiki donde registró lo solicitado en esta tarea con las actividades realizadas dentro de las fechas establecidas
+- Incluir el significado de una fila, el cual no es la descripción detallada de columnas o el diccionario de datos
+- Evitar tener imágenes o resultados de consultas sin comentarios asociados
+- Ser organizado al momento de generar el archivo a entregar
 ## **Preguntas o más información**
 - Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso.
 - Recuerde que tiene a su disposición el tutorial de Creación y manejo de la Wiki [aquí](https://misovirtual.virtual.uniandes.edu.co/codelabs/wiki-github/index.html?index=..%2F..ETL#0)
