@@ -25,7 +25,7 @@ Ahora que sabe cómo realizar un proceso ETL, dado el modelo multidimensional de
 
 Note que para este proceso de negocio, las dimensiones Producto, Cliente y Fecha son iguales a las del hecho Orden, este caso se conoce como dimensiones compartidas. Usted debe concentrarse en las dimensiones Proveedor, TipoTransaccion y la tabla de hechos que no existen en la bodega de datos actualmente.
 
-El modelo multidimensional: Este modelo representa los movimientos(transacciones) que se hacen sobre el inventario de WWImporters. En particular, se observa que se tiene información de los tipos de transacciones, realizadas por un proveedor, relacionado con un cliente y un producto específico en una fechas determinada. En el modelo se dejan explícitos los identificadores que se crean a nivel de la bodega, pero no hay que olvidar que se deben tener también los id transaccionales en las tablas que van a crear en la bodega de datos.
+El modelo multidimensional: Este modelo representa los movimientos(transacciones) que se hacen sobre el inventario de WWImporters. En particular, se observa que se tiene información de los tipos de transacciones, realizadas por un proveedor, relacionado con un cliente y un producto específico en una fecha determinada. En el modelo se dejan explícitos los identificadores que se crean a nivel de la bodega (que serían los que se crean con el sufijo DWH), pero no hay que olvidar que se deben tener también los id transaccionales en las tablas que van a crear en la bodega de datos.
 
 ![Modelo movimientos](Img/Modelo%20movimiento.png)
 
