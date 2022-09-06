@@ -27,7 +27,7 @@ Los datos los puede encontrar en la base de datos: ProyectoTransaccional del ser
 
 Para la fecha, si no hay día o mes asuma como valores por defecto el pimer día del mes, y el primer mes de cada año
 
-***Respuestas del negocio a conclusiones de Entendimiento***
+***Respuestas del negocio a conclusiones de Entendimiento***<br>
 Estarán disponibles después de la entrega de Entendimiento de datos del proyecto
 
 ***Modelo multidimensional propuesto***<br>
