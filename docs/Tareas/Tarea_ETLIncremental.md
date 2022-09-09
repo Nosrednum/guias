@@ -15,7 +15,7 @@ Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que pu
 1. Modelo multidimensional asociado al proceso de ordenes de ventas
 2. Tutorial ETL Incremental 
 3. Notebook para trabajar: puede usar la seccion 3 "Espacio para desarrollar la tarea" al final del notebook del tutorial para realizar esta actividad
-5. Servidor SQL con la bodega de datos construida hasta el momento "WWImporters_DWH_colucion". Adicionalmente, recuerde que tiene acceso a la base de datos relacional "WWImportersTransactional" y la base de datos relacional que ha ido construyendo (corresponde a la bodega de WWI "Estudiante_i" con los datos cargados de ETL)
+5. Servidor SQL con la bodega de datos construida hasta el momento "WWImporters_DWH_solucion". Adicionalmente, recuerde que tiene acceso a la base de datos relacional "WWImportersTransactional" y la base de datos relacional que ha ido construyendo (corresponde a la bodega de WWI "Estudiante_i" con los datos cargados de ETL)
 6. Archivos sql con los datos listos para cargue a bodega de datos en caso de requerirlo
 
 # Enunciado
@@ -31,7 +31,7 @@ WWImporters generó dos formas distintas de reportar los datos:
 - **Escenario 1.** Envían todos los clientes con o sin cambios
 - **Escenario 2.** Envían la última versión reportada a la bodega de datos del cliente, y la versión actual, para los clientes que tuvieron algún cambio desde el último reporte hecho a la bodega.
 
-Practique con ambos escenarios. Las tablas con la información para cada escenario se llaman ClientesReporte2_Escenario1 y ClientesReporte2_Escenario2. Adicionalmente, reflexione sobre el impacto, a nivel de la tabla de hechos, el tener órdenes de compra del segundo semestre del 2016.
+Practique con uno de los escenarios. Las tablas con la información para cada escenario se llaman ClientesReporte2_Escenario1 y ClientesReporte2_Escenario2. Adicionalmente, reflexione sobre el impacto, a nivel de la tabla de hechos, el tener órdenes de compra del segundo semestre del 2016.
 
 Como resultado de esta actividad debe publicar en el foro respectivo, dudas del proceso, que serán discutidas en las sesiones sincrónicas de esta semana
 
