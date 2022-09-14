@@ -77,7 +77,7 @@ La segunda tabla de hechos **HechoHistoriaCambios** almacena la historia de los 
 
 Con respecto al manejo de historia de atributos, **GeografíaConDemografía** tiene un **manejo tipo 2** que permite registrar entre otros cambios las proyecciones. Mientras que, para **aeropuerto**, se propuso un **tipo 4**, creándose la minidimensión MiniDimensiónAeropuerto. En esta ocasión, el modelo multidimensional compartido a nivel de los hechos, no incluye las FK con las dimensiones. Sin embargo, están repreentadas de forma implicita por las relaciones uno a muchas y deben ser consideradas durante el proceso de ETL.
 
-<img src="Img/Modelo_aeropuertos.png" width="800"/>
+<img src="Img/Modelo_aeropuertos.PNG" width="800"/>
 
 ***Tecnología***
 
