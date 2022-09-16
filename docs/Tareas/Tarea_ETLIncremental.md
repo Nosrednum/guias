@@ -12,11 +12,11 @@ Dentro  de  procesos  de  ETL,  es común  que se  presenten  dimensiones que pu
 
 **¿Qué necesita?**
 
-1. Modelo multidimensional asociado al proceso de ordenes de ventas
+1. Modelo multidimensional asociado al proceso de movimientos de inventarios, disponible en este [enlace](./img/Modelomovimiento.png)
 2. Tutorial ETL Incremental 
 3. Notebook para trabajar: puede usar la seccion 3 "Espacio para desarrollar la tarea" al final del notebook del tutorial para realizar esta actividad
 5. Servidor SQL con la bodega de datos construida hasta el momento "WWImporters_DWH_solucion", en esta base de datos el hecho está en la versión del ETL inicial. Adicionalmente, recuerde que tiene acceso a la base de datos relacional "WWImportersTransactional" y la base de datos relacional que ha ido construyendo (corresponde a la bodega de WWI "Estudiante_i" con los datos cargados de ETL)
-6. Archivos sql con los datos listos para cargue a bodega de datos en caso de requerirlo
+6. Archivos sql con los datos listos para cargue a bodega de datos en caso de requerirlo (revisar la sección de grabaciones de esta semana)
 
 # Enunciado
 Ahora que sabe cómo realizar un proceso ETL con manejo de historia, dado el modelo multidimensional del proceso de negocio de **movimientos de inventario**, debe enfrentar el reto de tener ciudades de los clientes que cambian en el tiempo, es decir clientes que cambian de ciudad donde se entregan sus pedidos, y que el negocio reporta de  diferentes maneras desde la base transaccional, que llamaremos escenarios. A partir de esto, reflexione sobre:
