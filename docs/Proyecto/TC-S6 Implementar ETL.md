@@ -76,7 +76,9 @@ El modelo propuesto muestra dos tablas de hecho. La primera de ellas **HechoVuel
 La segunda tabla de hechos **HechoHistoriaCambios** almacena la historia de los cambios realizados en los aeropuertos a nivel de longitud, ancho, clase, tipo, número de vuelos teniendo como origen ese aeropuerto y dado que es una *factless*, como medida se adicionó el campo cambio que es una constante de valor “1”.
 
 Con respecto al manejo de historia de atributos, **GeografíaConDemografía** tiene un **manejo tipo 2** que permite registrar entre otros cambios las proyecciones. Mientras que, para **aeropuerto**, se propuso un **tipo 4**, creándose la minidimensión MiniDimensiónAeropuerto. En esta ocasión, el modelo multidimensional compartido a nivel de los hechos, no incluye las FK con las dimensiones. Sin embargo, están repreentadas de forma implicita por las relaciones uno a muchas y deben ser consideradas durante el proceso de ETL.
-**Idea para los rangos** El manejo de los rangos en la minidimensión, puede hacerlos con los cuartiles, así el primer rango va de [0-valor del 25%), R2:[Valor 25%,Valor 50%), R3: [Valor del 50%, Valor del 75%), R4: > valor del 75%
+**Idea para los rangos** El manejo de los rangos en la minidimensión, puede hacerlos con los cuartiles, así el primer rango va de [0-valor del 25%), R2:[Valor 25%,Valor 50%), R3: [Valor del 50%, Valor del 75%), R4: > valor del 75%.
+
+Recuerde que el carácter “[ ]” representa inclusión en el rango, mientras que el carácter “( )” no.
 
 <img src="Img/Modelo_aeropuertos.PNG" width="800"/>
 
