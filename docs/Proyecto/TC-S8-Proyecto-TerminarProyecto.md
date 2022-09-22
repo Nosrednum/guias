@@ -23,7 +23,7 @@ Asociada a esta entrega encuentra un segundo enlace para determinar el grupo al 
 ## **Recursos requeridos**
 Todo el material desarrollado en el curso. Recuerde que estos recursos a nivel de datos y documentación los encuentra en estos enlaces del  repositorio:
 
-● Datos compartidos en la base de datos **Proyecto_DWH_sln**, que corresponden a las tablas que representan el modelo dimensional compartido por InfraestructuraVisible como solución, el cual se presenta en la imagen que se presenta más adelante.
+● Datos compartidos en la base de datos **proyecto_sol_test**, que corresponden a las tablas que representan el modelo dimensional compartido por InfraestructuraVisible como solución, el cual se presenta en la imagen que se presenta más adelante.
 
 El modelo estará disponible después de la entrega de Modelado multidimensional del proyecto.
 
@@ -32,8 +32,8 @@ El modelo estará disponible después de la entrega de Modelado multidimensional
 - Dividan el proceso de construcción del tablero de control: la primera parte donde adicionan los gráficos y la segunda, donde prueba con la totalidad de los datos. Durante la primera parte, pueden crear una tabla/vista con la misma estructura de la que requieren y una muestra de los registros para entender su comportamiento. Una vez tengan listo y probado el gráfico pueden hacer la consulta sobre la tabla/vista con todos los datos.
 - Incluir en la entrega la dirección de la wiki donde registraron lo solicitado en esta tarea.
 - Padlet a utilizar:
-    - Enlace: 
-    - Contraseña: 
+    - Enlace: Padlet [Padlet proyecto](https://padlet.com/misomiad/kq5n1v9wxpd3pl5l)
+    - Contraseña: AMD202214
     
 ## **Preguntas o más información**
 Las preguntas que surjan en el desarrollo de esta tarea pueden registrarlas en el slack del curso
