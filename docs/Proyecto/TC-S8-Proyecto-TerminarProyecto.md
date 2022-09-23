@@ -25,7 +25,9 @@ Todo el material desarrollado en el curso. Recuerde que estos recursos a nivel d
 
 ● Datos compartidos en la base de datos **proyecto_sol_test**, que corresponden a las tablas que representan el modelo dimensional compartido por InfraestructuraVisible como solución, el cual se presenta en la imagen que se presenta más adelante.
 
-El modelo estará disponible después de la entrega de Modelado multidimensional del proyecto.
+El modelo final que representa las creadas en la base de datos compartida es el siguiente:
+
+![modelo_aeropuerto_definitivo](Img/Modelo_aeropuertos_definitivo.PNG)
 
 ## **Recomendaciones de los entregables**
 - Tener una copia de las tablas compartidas en su ambiente de máquina virtual para que puedan trabajarlas de forma independiente.
