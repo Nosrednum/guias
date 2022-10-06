@@ -33,9 +33,6 @@ Ahora que sabe cómo crear modelos multidimensionales y hacer sentencias básica
 ![Modelo moimientos](Img/Modelo%20movimiento.png)
 
 
-![Sentencias CREATE](Img/CreateMovimientos.png)
-![Sentencias CREATE](scriptTarea.sql)
-
 
 2.	**MODELO MULTIDIMENSIONAL**: Proponga un modelo multidimensional para el siguiente caso, incluya detalles del modelo como el nivel de granularidad y aclaraciones que considere importantes, como parte de la entrega del mismo. Esta parte **NO** incluye la creación de tablas ni su población.
 
