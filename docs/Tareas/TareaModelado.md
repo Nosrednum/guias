@@ -15,7 +15,7 @@ Practicar lo aprendido en el tutorial de modelado de datos y SQL y retomar el le
 1. MySQL Workbench
 2. Modelo multidimensional asociado al proceso de movimientos
 3. Acceso al servidor de base de datos 
-4. Script SQL <a href='https://github.com/MISW-4402-Analisis-y-Modelado-de-datos/guias/blob/main/docs/Tareas/scriptTarea.sql'>aquí</a>
+4. Script SQL [aqui](scriptTarea.sql)
 
 # Enunciado
 Ahora que sabe cómo crear modelos multidimensionales y hacer sentencias básicas con SQL, lo que debe hacer en la primera parte de esta tarea, es crear en una base de datos relacional las tablas que representan el modelo multidimensional compartido de Wide World Importers (WWI), poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con un caso diferente al de la primera parte. A continuación encuentra el detalle de las actividades a realizar:  
@@ -34,6 +34,7 @@ Ahora que sabe cómo crear modelos multidimensionales y hacer sentencias básica
 
 
 ![Sentencias CREATE](Img/CreateMovimientos.png)
+![Sentencias CREATE](scriptTarea.sql)
 
 
 2.	**MODELO MULTIDIMENSIONAL**: Proponga un modelo multidimensional para el siguiente caso, incluya detalles del modelo como el nivel de granularidad y aclaraciones que considere importantes, como parte de la entrega del mismo. Esta parte **NO** incluye la creación de tablas ni su población.
