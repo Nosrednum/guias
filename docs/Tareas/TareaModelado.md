@@ -20,7 +20,7 @@ Practicar lo aprendido en el tutorial de modelado de datos y SQL y retomar el le
 # Enunciado
 Ahora que sabe cómo crear modelos multidimensionales y hacer sentencias básicas con SQL, lo que debe hacer en la primera parte de esta tarea, es crear en una base de datos relacional las tablas que representan el modelo multidimensional compartido de Wide World Importers (WWI), poblarlas y consultarlas. En la segunda parte, va a practicar la competencia de modelar con un caso diferente al de la primera parte. A continuación encuentra el detalle de las actividades a realizar:  
 
-1.	**MODELO ROLAP CASO MOVIMIENTOS WWImporters**: A partir del requerimiento analítico, modelo multidimensional y sentencias SQL que se muestran más adelante, prepare los siguientes entregables. 
+1.	**MODELO ROLAP CASO MOVIMIENTOS WWImporters**: A partir del requerimiento analítico, modelo multidimensional y sentencias de creación de tablas que se dan como insumo para esta tarea, prepare los siguientes entregables. 
 -	**Entregable CREATE**: Defina las sentencias para crear las tablas de **cliente** y **movimiento** de acuerdo con el modelo multidimensional que se comparte.
 -	**Entregable INSERT**: Defina las sentencias para la inserción de 5 registros en todas las tablas del modelo multidimensional de **movimientos**.
 -	**Entregable SELECT**: Defina las sentencias para consultar los datos de manera que le permita resolver el requerimiento analítico sobre **movimientos**. 
