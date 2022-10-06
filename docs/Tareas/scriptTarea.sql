@@ -1,4 +1,4 @@
-USE Estudiante_43;
+USE Estudiante_XX;
 --------------------- Modelo de hecho movimiento
 CREATE TABLE Fecha (
 ID_Fecha INT,
